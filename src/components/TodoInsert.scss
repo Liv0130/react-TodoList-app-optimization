@@ -1,0 +1,38 @@
+.TodoInsert {
+  display: flex;
+  background: #cee3ed;
+  input {
+    background: none;
+    outline: none;
+    border: none;
+    // 기본 스타일을 초기화 한 것
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    color: black;
+    font-family: 'Gaegu', sans-serif;
+    &::placeholder {
+      color: #a0abb0;
+      font-family: 'Gaegu', sans-serif;
+      font-size: 1.3rem;
+    }
+    flex: 1;
+    // 이렇게하면 작성 버튼이 모든 영역을 차지해서 맨 끝으로 이동
+  }
+  button {
+    background: none;
+    outline: none;
+    border: none;
+    background: #66accc;
+    color: white;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.1s background ease-in;
+    &:hover {
+      background: #306f8c;
+    }
+  }
+}
