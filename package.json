@@ -7,10 +7,13 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "classnames": "^2.3.1",
+    "lts": "^1.2.0",
+    "node": "^17.7.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.0",
+    "react-virtualized": "^9.22.3",
     "sass": "^1.49.9",
     "web-vitals": "^2.1.4"
   },
